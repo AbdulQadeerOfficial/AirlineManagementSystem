@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="label6.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>220, 300</value>
+  </data>
+  <data name="label6.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>210, 230</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 259</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Experience the comfort of flying with Fly Jinnah Airline-the perfect way to travel !</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 268</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 175</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 446</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 36pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 34</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 60</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Fly Jinnah Airline</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 144</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 29</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>UserId</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 202</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="uIdTb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="uIdTb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 144</value>
+  </data>
+  <data name="uIdTb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 35</value>
+  </data>
+  <data name="uIdTb.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;uIdTb.Name" xml:space="preserve">
+    <value>uIdTb</value>
+  </data>
+  <data name="&gt;&gt;uIdTb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uIdTb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uIdTb.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="passTb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="passTb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 202</value>
+  </data>
+  <data name="passTb.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="passTb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 35</value>
+  </data>
+  <data name="passTb.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;passTb.Name" xml:space="preserve">
+    <value>passTb</value>
+  </data>
+  <data name="&gt;&gt;passTb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passTb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;passTb.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnReset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnReset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 292</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 38</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnLogin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLogin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 292</value>
+  </data>
+  <data name="btnLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 38</value>
+  </data>
+  <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Name" xml:space="preserve">
+    <value>btnLogin</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnRegAdmin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRegAdmin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnRegAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 349</value>
+  </data>
+  <data name="btnRegAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 46</value>
+  </data>
+  <data name="btnRegAdmin.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnRegAdmin.Text" xml:space="preserve">
+    <value>Register Admin</value>
+  </data>
+  <data name="&gt;&gt;btnRegAdmin.Name" xml:space="preserve">
+    <value>btnRegAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnRegAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRegAdmin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRegAdmin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>715, 444</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgA/36IAP/5iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD/+YgA/36IAP/5iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP/5iAD//4gA//+IAP//iAD//4gA
+        //+IAP//dyD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//xnP//96Gv//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//2k5
+        //+GBP//iAD//4gA//8+iv//VGH//4EN//9uMf//iAD//4gA//+FBf//ajj//4gA//+IAP//iAD//4gA
+        //8X0///gBD//4gA//+IAP//W1T//zmU//+BDf//F9P//4gA//+IAP//ajj//y6o//+IAP//iAD//4gA
+        //+IAP//F9P//4AQ//+IAP//iAD//2s1//8rrv//iAD//xrN//9/Ef//iAD//0xv//9Nb///iAD//4gA
+        //+IAP//iAD//xfT//+AEP//iAD//4gA//9wLf//J7X//4gA//84lf//Fdb//x7F//8J7f//azX//4gA
+        //+IAP//iAD//4gA//8X0///MqH//zWb//9YWf//cCz//ye1//+IAP//V1z//0Z8//+IAP//Fdf//4UF
+        //+IAP//iAD//4gA//+IAP//F9P//2c8//9uL///eRv//3As//8ntf//iAD//3Yi//8os///ehn//yHB
+        //+IAP//iAD//4gA//+IAP//iAD//xfT//+AEP//iAD//4gA//9wLP//J7X//4gA//+IAP//GNH//1xR
+        //9Ah///iAD//4gA//+IAP//iAD//4gA//8X0///gBD//4gA//+IAP//cCz//ye1//+IAP//iAD//yut
+        //8tqv//Xk3//4gA//+IAP//iAD//4gA//+IAP//F9P//yut//8uqP//SHf//3As//8ntf//iAD//4gA
+        //9Kc///Avr//30V//+IAP//iAD//4gA//+IAP//iAD//3oa//93IP//dyD//3wX//+FBf//fBf//4gA
+        //+IAP//ggr//3ge//+IAP//iAD//4gA//+IAP//iAD/+YgA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD/+YgA/36IAP/5iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD/+YgA/34AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA/wKIAP98iAD/5ogA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD/5ogA/3yAAP8CiAD/fIgA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA/3yIAP/miAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD/5ogA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//9kQ///aDz//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//x7G
+        //8C+///fxH//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//RX7//wD///9ZWP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//9rNv//AP///zKh//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//9XW///PYv//38R
+        //+IAP//iAD//4gA//+IAP//iAD//4YD//8H8f//D+L//4gA//+IAP//bDP//z2L//9qOP//iAD//4gA
+        //+IAP//iAD//4gA//98Fv//PYv//1pV//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//y6n
+        //8A////dyD//4gA//+IAP//iAD//4gA//+IAP//iAD//yK+//8A////fBb//4gA//9uMf//AP///zqS
+        //+IAP//iAD//4gA//+IAP//iAD//1tU//8A////TW///4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//Lqf//wD///93IP//iAD//4gA//+IAP//iAD//4gA//+IAP//OZP//wD///9nPf//iAD//4YD
+        //8G8v//HMr//4gA//+IAP//iAD//4gA//+IAP//PYv//wD///9rNf//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//8up///AP///3cg//+IAP//iAD//4gA//+IAP//iAD//4gA//9Kc///AP///1pW
+        //+IAP//iAD//yO8//8D+f//gwj//4gA//+IAP//iAD//4gA//8gw///BfX//4UF//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//y6n//8A////dyD//4gA//+IAP//iAD//4gA//+IAP//iAD//1Rg
+        //8A////UWX//4gA//+IAP//QoL//wD///9oO///iAD//4gA//+IAP//hQX//wX1//8hwf//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//Lqf//wD///93IP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//WFr//wD///9Pa///iAD//4gA//9hSf//AP///w3l//8V1///Fdf//xXX//8T2///AP///0CH
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//8up///AP///3cg//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//9YWf//AP///05r//+IAP//iAD//38R//8B/f//C+r//yiz//8os///KLP//xPa
+        //8A////Xk3//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//y6n//8A////XVD//2o3
+        //9qN///ajf//2o3//+DCP//iAD//1hZ//8A////Tmv//4gA//+IAP//iAD//xbU//8S3f//iAD//4gA
+        //+IAP//L6b//wD+//99Ff//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//Lqf//wD/
+        //8A////AP///wD///8A////AP///3Ml//+IAP//WFn//wD///9Oa///iAD//4gA//+IAP//NZv//wD+
+        //99Ff//iAD//4gA//8R3v//FNn//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //8up///AP///0pz//9VX///VV///1Vf//9VX///gA7//4gA//9YWf//AP///05r//+IAP//iAD//4gA
+        //9UYf//AP///19M//+IAP//fBf//wD///8zn///iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//y6n//8A////dyD//4gA//+IAP//iAD//4gA//+IAP//iAD//1hZ//8A////Tmv//4gA
+        //+IAP//iAD//3Mn//8A////QoL//4gA//9eTv//AP///1Fm//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//Lqf//wD///93IP//iAD//4gA//+IAP//iAD//4gA//+IAP//WFn//wD/
+        //9Oa///iAD//4gA//+IAP//hwH//wrr//8luf//iAD//0CG//8A////cCz//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//8up///AP///3cg//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //9YWf//AP///05r//+IAP//iAD//4gA//+IAP//KbL//wjv//+HAf//Ir7//wjw//+HAv//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//y6n//8A////dyD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//1hZ//8A////Tmv//4gA//+IAP//iAD//4gA//9Hef//AP///3Er//8H8v//Jrj//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//Lqf//wD///93IP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//WFn//wD///9Oa///iAD//4gA//+IAP//iAD//2Y///8A////PI3//wD/
+        //9Efv//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//8up///AP///1Bn
+        //9cUf//XFH//1xR//9cUf//dSL//4gA//9YWf//AP///05r//+IAP//iAD//4gA//+IAP//ggr//wL6
+        //8I7///AP///2NF//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//y6n
+        //8A////AP///wD///8A////AP///wD///9Oa///iAD//1hZ//8A////Tmv//4gA//+IAP//iAD//4gA
+        //+IAP//HMr//wD///8B/P//gA7//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//cir//2ZA//9mQP//ZkD//2ZA//9mQP//ZkD//3kb//+IAP//fBb//2ZA//95G///iAD//4gA
+        //+IAP//iAD//4gA//9yKv//ZkD//2k6//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP/miAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD/5ogA/3yIAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP98gAD/AogA/3yIAP/miAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP/miAD/fIAA/wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAP8PiAD/XIgA/8eIAP/2iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP/2iAD/x4gA/1yIAP8PAAAAAIgA/w+HAP+ViAD/94gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//eHAP+ViAD/D4gA
+        /1yIAP/3iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP/3iAD/XIgA/8eIAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD/x4gA//aIAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD/9ogA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//05s//9Kc///WFj//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//ye1//8A////BvP//4IM//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//1Jl//8A////AP///1tT
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//3Er
+        //8J7v//AP///y+m//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//3wW//8hwf//AP///xPb//98Fv//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4UF//+BC///gQv//4cC//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4QH//85lP//AP///wvq//9jRP//iAD//4gA//+IAP//gwj//4EL
+        //+CCv//hwH//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//hwL//4EL//+BC///hQX//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//1Zc//8V1///Fdf//3At
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//9ObP//BPj//wP4//9ObP//iAD//4gA
+        //+IAP//Q4L//xXX//8fw///eB7//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//aTv//xXX
+        //8V1///YEr//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t
+        //8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//9iRv//Cuv//wD/
+        //88j///hQX//4gA//+IAP//VGH//wD///8A/v//Zz3//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//Rnz//wD///8F9v//cCz//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //9zKP//EOH//wD///8tq///gA///4gA//+IAP//dSL//wD+//8A////R3n//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+HAf//Jrf//wD///8Y0f//eRz//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+BDv//Fdj//wD///8hwf//fBf//4gA//+IAP//hwL//xHe//8A////Jrb//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//98Fv//FNn//wD///8sq///gA///4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//Hsb//wD///8Y0///eR3//4gA//+IAP//iAD//zKh
+        //8A////CO///4UF//+IAP//iAD//4gA//+IAP//iAD//4gA//9pOv//Def//wH+//9Bhf//hgP//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//LK3//wD///8R3///diH//4gA
+        //+IAP//iAD//1Rh//8A////AP///20z//+IAP//iAD//4gA//+IAP//iAD//4gA//9VX///BvT//wbz
+        //9WXv//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t
+        //8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//NJz//wD/
+        //8N5v//dSP//4gA//+IAP//iAD//3Au//8F9f//AP///0xw//+IAP//iAD//4gA//+IAP//iAD//4YD
+        //9BhP//Af7//w3m//9qOP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//OJb//wD///8L6v//dCX//4gA//+IAP//iAD//3kc//8Y0v//AP///w7k//8jvf//I73//yO9
+        //8jvf//I73//yG///8O5f//AP///xXX//9+Ev//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4AP//8sq///AP///wD/
+        //8A////AP///wD///8A////AP///wD///8A////AP///yqw//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4YD
+        //9Bhf//AP7//wbz//8znv//QoH//0KB//9Cgf//QoH//zWZ//8A////AP///0tx//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2RE
+        //9+E///fhP//34T//9+E///fhP//34T//+BDP//hwH//4gA//+IAP//OJT//wD///8K6///dCX//4gA
+        //+IAP//iAD//4gA//9WX///BvT//wjw//9bVP//iAD//4gA//+IAP//iAD//1dc//8A////AP///20x
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t
+        //8A////AP///x7G//8mt///Jrf//ya3//8mt///Jrf//ya3//9Idv//gwn//4gA//+IAP//OJT//wD/
+        //8K6///dCX//4gA//+IAP//iAD//4gA//9qOP//Deb//wL7//9Hef//hwH//4gA//+IAP//iAD//zaa
+        //8A////Cur//4UG//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//01t//8A////AP///wD///8A////AP///wD///8A////AP///wD///8vpf//gQ3//4gA
+        //+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA//9+Ev//FNn//wD///80nf//ggr//4gA
+        //+IAP//iAD//xXX//8A////KbH//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///ymy//80nv//NJ7//zSe//80nv//NJ7//zSe
+        //9RZv//hAj//4gA//+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA//+IAP//KrD//wD/
+        //8gwv//fBf//4gA//+IAP//fBf//wD+//8A////THH//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA
+        //+IAP//THH//wD///8N5v//dSP//4gA//+IAP//W1T//wD///8D+f//ajj//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//OJT//wD///8K6///dCX//4gA
+        //+IAP//iAD//4gA//+IAP//bjH//wD///8B/f//ZUL//4gA//+IAP//OpH//wD///8S3P//dyD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t
+        //8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//OJT//wD/
+        //8K6///dCX//4gA//+IAP//iAD//4gA//+IAP//hwP//wnt//8A////RX3//4gA//+GBP//HMr//wD/
+        //8ntv//fhP//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA//+IAP//iAD//yqw//8A////Jbn//4gA
+        //91Iv//Ed///wD+//87j///hQb//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA//+IAP//iAD//0xx
+        //8A////B/H//4YE//9iR///Cuz//wT3//9Qaf//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//2s2//8C+///AP///2w0//9Obf//BPj//wvq//9lQv//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///2w1
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//OJT//wD///8K6///dCX//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//3cg//8T2///AP///0h2//86kv//AP///xLd//95HP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t
+        //8A////AP///2w1//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//OJT//wD/
+        //8K6///dCX//4gA//+IAP//iAD//4gA//+IAP//iAD//34S//8ntf//AP///yK///8mt///AP///yK/
+        //+HAv//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//01t//8A////AP///2BL//95HP//eRz//3kc//95HP//eRz//3kc//96Gv//hgT//4gA
+        //+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA//+IAP//iAD//4UG//88jv//AP7//wX1
+        //8N5f//AP///0OC//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///xPb//8Y0f//GNH//xjR//8Y0f//GNH//xjR
+        //8hwf//eB7//4gA//+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //9QaP//BPf//wD///8A////AP///2RC//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//01t//8A////AP///wD///8A////AP///wD/
+        //8A////AP///wD///8K6///dCX//4gA//+IAP//OJT//wD///8K6///dCX//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//9lQf//C+r//wD///8A////BPf//4IK//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//3Au//9Qav//UGr//1Bq
+        //9Qav//UGr//1Bq//9Qav//UGr//1Bq//9UYf//gA///4gA//+IAP//Zz3//1Bq//9UYf//gA///4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//9/EP//Vl3//1Bq//9Qav//WVn//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//aIAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD/9ogA/8eIAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD/x4gA/1yIAP/3iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP/3iAD/XIgA/w+HAP+ViAD/94gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//eHAP+ViAD/DwAA
+        AACIAP8PiAD/XIgA/8eIAP/2iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA
+        //+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP//iAD//4gA//+IAP/2iAD/x4gA
+        /1yIAP8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
